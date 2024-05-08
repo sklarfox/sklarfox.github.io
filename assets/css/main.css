@@ -8630,3 +8630,9 @@ body.is-preload .items.onload-fade-in > * > .inner {
   min-width: 100%;
   vertical-align: middle;
 }
+
+#wrapper > .color-gradient {
+  background-color: #6ba78c;
+  background-image: url(images/overlay2.png), url(images/overlay3.svg),
+    linear-gradient(-135deg, #ffb866 5%, #565659 30%, #565659 50%, #236658);
+}
