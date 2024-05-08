@@ -23,7 +23,7 @@
     <div id="wrapper" class="divided">
       <!-- Greeting -->
       <section
-        class="banner invert style3 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1"
+        class="banner invert style3 orient-left content-align-left image-position-center onload-image-fade-in onload-content-fade-right color1"
       >
         <div class="content">
           <h1>Oh, hi there!</h1>
@@ -78,11 +78,11 @@
             features and business logic instead of the complexities of WebSocket
             scaling, state synchronization, and conflict resolution.
           </p>
-          <ul class="actions">
+          <ul class="actions fit stacked">
             <li>
               <a
                 href="https://syncosaurus.github.io/case-study"
-                class="button"
+                class="button primary"
                 target="_blank"
                 >Read The Case Study</a
               >
@@ -97,6 +97,37 @@
           />
         </div>
       </section>
+      <!-- Syncosaurus Features -->
+      <section
+        class="spotlight style1 orient-left content-align-center image-position-left onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h2><strong>Key Features</strong></h2>
+          <ul class="alt">
+            <li>Robust and Flexible Collaboration Engine</li>
+            <li>Command line tool for development and deployment</li>
+            <li>Built-in dashboard for monitoring and debugging</li>
+          </ul>
+          <ul class="actions fit stacked">
+            <li>
+              <a
+                href="https://syncosaurus.github.io/case-study"
+                class="button primary"
+                target="_blank"
+                >Read The Case Study</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="messaging-div" class="image">
+          <object
+            type="image/svg+xml"
+            data="assets/images/diag-ON-messaging.svg"
+            alt="syncosaurus messaging diagram"
+            id="on-diagram"
+          ></object>
+        </div>
+      </section>
       <!-- Other Projects -->
       <section class="wrapper style1 align-center">
         <div class="inner">
@@ -104,9 +135,12 @@
           <div class="items style1 medium onscroll-fade-in">
             <section>
               <span class="image fit">
-                <img src="assets/images/digital-envelopes.jpg" alt="" />
+                <img
+                  src="assets/images/wgw-dashboard.jpg"
+                  alt="Webhook Gravity Well dashboard"
+                />
               </span>
-              <h3>Request Dumpster</h3>
+              <h3>Webhook Gravity Well</h3>
               <p>A utility to receive, inspect, and debug Webhooks</p>
               <p>JavaScript/Node.js, React, MongoDB, PostgreSQL</p>
             </section>
