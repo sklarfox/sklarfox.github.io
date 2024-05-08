@@ -8607,3 +8607,14 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper.divided > .invert:first-child {
   box-shadow: none !important;
 }
+
+#syncosaurus-icon {
+  object-fit: contain;
+}
+
+#logo-div {
+  background-color: #1d3370;
+}
+
+#digital-envelopes-icon {
+}
